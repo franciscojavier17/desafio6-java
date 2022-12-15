@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>API</title>
+</head>
+<body>
+    <h1>Convertidor de monedas</h1>
+    <section class="convert-box">
+        <div>
+            <h2>Monto en Pesos (CLP)</h2>
+            <input type="text" value="" id="clpAmount" />
+        </div>
+        <div>
+            <h2>Moneda a convertir: ⬇️</h2>
+            <select id="moneyChange">
+                <option value="dolar" id="pluraldolar" class="es">Dolar</option>
+                <option value="euro" id="pluraleuro" class="s">Euro</option>
+            </select>
+        </div>
+        <button id="convertButton" class="convert-button">Convertir</button>
+        <div>
+            <h2>Resultado: <span id="result"></span></h2>
+        </div>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
